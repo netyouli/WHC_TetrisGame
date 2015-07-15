@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180286B517A6BA9400872BB6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 180286B417A6BA9400872BB6 /* libsqlite3.dylib */; };
+		1813E1E917A3CAD7000A084E /* MoveBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813E1E817A3CAD7000A084E /* MoveBlock.m */; };
+		1813E1EC17A3CB23000A084E /* ChangeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813E1EB17A3CB23000A084E /* ChangeBlock.m */; };
+		1813E1F217A3E08E000A084E /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813E1F117A3E08E000A084E /* BlockView.m */; };
+		181E1955179EADA900CC7661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181E1954179EADA900CC7661 /* UIKit.framework */; };
+		181E1957179EADA900CC7661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181E1956179EADA900CC7661 /* Foundation.framework */; };
+		181E1959179EADA900CC7661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181E1958179EADA900CC7661 /* CoreGraphics.framework */; };
+		181E195F179EADA900CC7661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181E195D179EADA900CC7661 /* InfoPlist.strings */; };
+		181E1961179EADA900CC7661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E1960179EADA900CC7661 /* main.m */; };
+		181E1965179EADA900CC7661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E1964179EADA900CC7661 /* AppDelegate.m */; };
+		181E1967179EADA900CC7661 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 181E1966179EADA900CC7661 /* Default.png */; };
+		181E1969179EADA900CC7661 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181E1968179EADA900CC7661 /* Default@2x.png */; };
+		181E196B179EADA900CC7661 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181E196A179EADA900CC7661 /* Default-568h@2x.png */; };
+		181E1972179EADCD00CC7661 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = 181E1971179EADCD00CC7661 /* block.png */; };
+		181E1984179EB01300CC7661 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E1983179EB01300CC7661 /* MainViewController.m */; };
+		C3D573CA1B5601120000E53A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C3D573C91B5601120000E53A /* README.md */; };
+		C3D573CC1B5603C00000E53A /* show.gif in Resources */ = {isa = PBXBuildFile; fileRef = C3D573CB1B5603C00000E53A /* show.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180286B417A6BA9400872BB6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1813E1E717A3CAD7000A084E /* MoveBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveBlock.h; sourceTree = "<group>"; };
+		1813E1E817A3CAD7000A084E /* MoveBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveBlock.m; sourceTree = "<group>"; };
+		1813E1EA17A3CB23000A084E /* ChangeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeBlock.h; sourceTree = "<group>"; };
+		1813E1EB17A3CB23000A084E /* ChangeBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeBlock.m; sourceTree = "<group>"; };
+		1813E1F017A3E08E000A084E /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		1813E1F117A3E08E000A084E /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
+		181E1951179EADA900CC7661 /* 俄罗斯方块游戏开发.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "俄罗斯方块游戏开发.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E1954179EADA900CC7661 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181E1956179EADA900CC7661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181E1958179EADA900CC7661 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181E195C179EADA900CC7661 /* 俄罗斯方块游戏开发-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "俄罗斯方块游戏开发-Info.plist"; sourceTree = "<group>"; };
+		181E195E179EADA900CC7661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181E1960179EADA900CC7661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181E1962179EADA900CC7661 /* 俄罗斯方块游戏开发-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "俄罗斯方块游戏开发-Prefix.pch"; sourceTree = "<group>"; };
+		181E1963179EADA900CC7661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181E1964179EADA900CC7661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181E1966179EADA900CC7661 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		181E1968179EADA900CC7661 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		181E196A179EADA900CC7661 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		181E1971179EADCD00CC7661 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		181E1982179EB01300CC7661 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		181E1983179EB01300CC7661 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		18F29C1717A4A6C00018A526 /* BlockMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockMode.h; sourceTree = "<group>"; };
+		C3D573C91B5601120000E53A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C3D573CB1B5603C00000E53A /* show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = show.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181E194E179EADA900CC7661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180286B517A6BA9400872BB6 /* libsqlite3.dylib in Frameworks */,
+				181E1955179EADA900CC7661 /* UIKit.framework in Frameworks */,
+				181E1957179EADA900CC7661 /* Foundation.framework in Frameworks */,
+				181E1959179EADA900CC7661 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E1948179EADA900CC7661 = {
+			isa = PBXGroup;
+			children = (
+				C3D573C91B5601120000E53A /* README.md */,
+				181E195A179EADA900CC7661 /* 俄罗斯方块游戏开发 */,
+				181E1953179EADA900CC7661 /* Frameworks */,
+				181E1952179EADA900CC7661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181E1952179EADA900CC7661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181E1951179EADA900CC7661 /* 俄罗斯方块游戏开发.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E1953179EADA900CC7661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180286B417A6BA9400872BB6 /* libsqlite3.dylib */,
+				181E1954179EADA900CC7661 /* UIKit.framework */,
+				181E1956179EADA900CC7661 /* Foundation.framework */,
+				181E1958179EADA900CC7661 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181E195A179EADA900CC7661 /* 俄罗斯方块游戏开发 */ = {
+			isa = PBXGroup;
+			children = (
+				C3D573CB1B5603C00000E53A /* show.gif */,
+				181E1982179EB01300CC7661 /* MainViewController.h */,
+				181E1983179EB01300CC7661 /* MainViewController.m */,
+				1813E1F017A3E08E000A084E /* BlockView.h */,
+				1813E1F117A3E08E000A084E /* BlockView.m */,
+				1813E1E717A3CAD7000A084E /* MoveBlock.h */,
+				1813E1E817A3CAD7000A084E /* MoveBlock.m */,
+				1813E1EA17A3CB23000A084E /* ChangeBlock.h */,
+				1813E1EB17A3CB23000A084E /* ChangeBlock.m */,
+				181E1963179EADA900CC7661 /* AppDelegate.h */,
+				181E1964179EADA900CC7661 /* AppDelegate.m */,
+				18F29C1717A4A6C00018A526 /* BlockMode.h */,
+				181E195B179EADA900CC7661 /* Supporting Files */,
+			);
+			path = "俄罗斯方块游戏开发";
+			sourceTree = "<group>";
+		};
+		181E195B179EADA900CC7661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181E1971179EADCD00CC7661 /* block.png */,
+				181E195C179EADA900CC7661 /* 俄罗斯方块游戏开发-Info.plist */,
+				181E195D179EADA900CC7661 /* InfoPlist.strings */,
+				181E1960179EADA900CC7661 /* main.m */,
+				181E1962179EADA900CC7661 /* 俄罗斯方块游戏开发-Prefix.pch */,
+				181E1966179EADA900CC7661 /* Default.png */,
+				181E1968179EADA900CC7661 /* Default@2x.png */,
+				181E196A179EADA900CC7661 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181E1950179EADA900CC7661 /* 俄罗斯方块游戏开发 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E196E179EADA900CC7661 /* Build configuration list for PBXNativeTarget "俄罗斯方块游戏开发" */;
+			buildPhases = (
+				181E194D179EADA900CC7661 /* Sources */,
+				181E194E179EADA900CC7661 /* Frameworks */,
+				181E194F179EADA900CC7661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "俄罗斯方块游戏开发";
+			productName = "俄罗斯方块游戏开发";
+			productReference = 181E1951179EADA900CC7661 /* 俄罗斯方块游戏开发.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181E1949179EADA900CC7661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = apple;
+			};
+			buildConfigurationList = 181E194C179EADA900CC7661 /* Build configuration list for PBXProject "俄罗斯方块游戏开发" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 181E1948179EADA900CC7661;
+			productRefGroup = 181E1952179EADA900CC7661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181E1950179EADA900CC7661 /* 俄罗斯方块游戏开发 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181E194F179EADA900CC7661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E195F179EADA900CC7661 /* InfoPlist.strings in Resources */,
+				181E1967179EADA900CC7661 /* Default.png in Resources */,
+				181E1969179EADA900CC7661 /* Default@2x.png in Resources */,
+				181E196B179EADA900CC7661 /* Default-568h@2x.png in Resources */,
+				C3D573CC1B5603C00000E53A /* show.gif in Resources */,
+				181E1972179EADCD00CC7661 /* block.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181E194D179EADA900CC7661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E1961179EADA900CC7661 /* main.m in Sources */,
+				181E1965179EADA900CC7661 /* AppDelegate.m in Sources */,
+				181E1984179EB01300CC7661 /* MainViewController.m in Sources */,
+				C3D573CA1B5601120000E53A /* README.md in Sources */,
+				1813E1E917A3CAD7000A084E /* MoveBlock.m in Sources */,
+				1813E1EC17A3CB23000A084E /* ChangeBlock.m in Sources */,
+				1813E1F217A3E08E000A084E /* BlockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181E195D179EADA900CC7661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E195E179EADA900CC7661 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181E196C179EADA900CC7661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181E196D179EADA900CC7661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181E196F179EADA900CC7661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "俄罗斯方块游戏开发/俄罗斯方块游戏开发-Prefix.pch";
+				INFOPLIST_FILE = "俄罗斯方块游戏开发/俄罗斯方块游戏开发-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		181E1970179EADA900CC7661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "俄罗斯方块游戏开发/俄罗斯方块游戏开发-Prefix.pch";
+				INFOPLIST_FILE = "俄罗斯方块游戏开发/俄罗斯方块游戏开发-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181E194C179EADA900CC7661 /* Build configuration list for PBXProject "俄罗斯方块游戏开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E196C179EADA900CC7661 /* Debug */,
+				181E196D179EADA900CC7661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E196E179EADA900CC7661 /* Build configuration list for PBXNativeTarget "俄罗斯方块游戏开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E196F179EADA900CC7661 /* Debug */,
+				181E1970179EADA900CC7661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181E1949179EADA900CC7661 /* Project object */;
+}
